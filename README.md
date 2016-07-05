@@ -1,17 +1,8 @@
-<style>
-    .title { color: #ff8000 }
-    .middle {
-        position: relative;
-        vertical-align: middle;
-        display: inline-block;
-    }
-</style>
-
-<h1 class="title">
+<h1 style="color:#ff8000">
     <div class="middle">
-        ![Thunderfury](.github/inv_sword_39.jpg)
+        <img src=".github/inv_sword_39.jpg" alt="Thunderfury">
     </div>
-    <span class="middle">Thunderfury, Blessed Blade of the Windseeker
+    <span class="middle">Thunderfury, Blessed Blade of the Windseeker</span>
 </h1>
 
 ## Building
