@@ -1,0 +1,9 @@
+﻿using System;
+namespace wowapi
+{
+	public sealed partial class Constants
+	{
+		private const string API_KEY = "abc123";
+	}
+}
+
