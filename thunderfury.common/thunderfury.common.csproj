@@ -40,6 +40,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="Constants.private.cs" />
     <Compile Include="Utils\UnixTimeConverter.cs" />
+    <Compile Include="Models\BattleNetEnums.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
