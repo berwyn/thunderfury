@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace wowapi.Utils
+namespace Thunderfury.Utils
 {
 	public sealed class HTTPHelper
 	{

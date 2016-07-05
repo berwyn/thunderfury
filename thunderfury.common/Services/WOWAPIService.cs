@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
-using wowapi.Models;
-using wowapi.Utils;
+using Thunderfury.Models;
+using Thunderfury.Utils;
 
-namespace wowapi.Services
+namespace Thunderfury.Services
 {
 	public enum Region
 	{
@@ -68,6 +68,7 @@ namespace wowapi.Services
 				default:
 					return "https://us.api.battle.net/wow";
 			}
+		}
 	}
 }
 

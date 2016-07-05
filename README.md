@@ -1,8 +1,8 @@
-<h1 style="color:#ff8000">
-    <div class="middle">
+<h1>
+    <div>
         <img src=".github/inv_sword_39.jpg" alt="Thunderfury">
     </div>
-    <span class="middle">Thunderfury, Blessed Blade of the Windseeker</span>
+    <span>Thunderfury, Blessed Blade of the Windseeker</span>
 </h1>
 
 ## Building
