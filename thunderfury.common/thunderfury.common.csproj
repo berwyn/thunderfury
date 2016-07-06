@@ -34,13 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\WOWAPIService.cs" />
     <Compile Include="Models\BattleNetModels.cs" />
     <Compile Include="Utils\HTTPHelper.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Constants.private.cs" />
     <Compile Include="Utils\UnixTimeConverter.cs" />
     <Compile Include="Models\BattleNetEnums.cs" />
+    <Compile Include="Services\WowApiService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />

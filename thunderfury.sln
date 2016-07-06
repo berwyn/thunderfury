@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thunderfury.common", "thunderfury.common\thunderfury.common.csproj", "{A14CAF04-E315-4486-AA34-E9E1A79CE25B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thunderfury.common.tests", "thunderfury.common.tests\thunderfury.common.tests.csproj", "{652BA4E0-CB29-4E43-8540-D4D67C3AD4C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +23,9 @@ Global
 		{A14CAF04-E315-4486-AA34-E9E1A79CE25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14CAF04-E315-4486-AA34-E9E1A79CE25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14CAF04-E315-4486-AA34-E9E1A79CE25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652BA4E0-CB29-4E43-8540-D4D67C3AD4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652BA4E0-CB29-4E43-8540-D4D67C3AD4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652BA4E0-CB29-4E43-8540-D4D67C3AD4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652BA4E0-CB29-4E43-8540-D4D67C3AD4C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

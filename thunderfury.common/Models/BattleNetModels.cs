@@ -9,40 +9,40 @@ namespace Thunderfury.Models
 	{
 		[JsonProperty("lastModified")]
 		[JsonConverter(typeof(UnixTimeConverter))]
-		public DateTime LastModified { get; }
+		public DateTime LastModified { get; set; }
 		[JsonProperty("name")]
-		public string Name { get; }
+		public string Name { get; set; }
 		[JsonProperty("realm")]
-		public string Realm { get; }
+		public string Realm { get; set; }
 		[JsonProperty("battlegroup")]
-		public string Battlegroup { get; }
+		public string Battlegroup { get; set; }
 		[JsonProperty("class")]
-		public Class Class { get; }
+		public Class Class { get; set; }
 		[JsonProperty("race")]
-		public Race Race { get; }
+		public Race Race { get; set; }
 		[JsonProperty("gender")]
-		public Gender Gender { get; }
+		public Gender Gender { get; set; }
 		[JsonProperty("level")]
-		public byte Level { get; }
+		public byte Level { get; set; }
 		[JsonProperty("achievementPoints")]
-		public int AchievementPoints { get; }
+		public int AchievementPoints { get; set; }
 		[JsonProperty("thumbnail")]
-		public string Thumbnail { get; }
+		public string Thumbnail { get; set; }
 		[JsonProperty("calcClass")]
-		public string CalcClass { get; }
+		public string CalcClass { get; set; }
 		[JsonProperty("faction")]
-		public Faction Faction { get; }
+		public Faction Faction { get; set; }
 		[JsonProperty("totalHonorableKills")]
-		public int HonorableKills { get; }
+		public int HonorableKills { get; set; }
 		[JsonProperty("guildName")]
-		public string GuildName { get; }
+		public string GuildName { get; set; }
 		[JsonProperty("guildRealm")]
-		public string GuildRealm { get; }
+		public string GuildRealm { get; set; }
 
 		#region Optional Fields
 
 		[JsonProperty("guild")]
-		public Guild Guild { get; }
+		public Guild Guild { get; set; }
 
 		#endregion
 
@@ -96,6 +96,8 @@ namespace Thunderfury.Models
 			[JsonProperty("rank")]
 			public byte Rank { get; }
 		}
+
+		#endregion
 	}
 }
 

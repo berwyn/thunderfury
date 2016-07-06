@@ -5,14 +5,19 @@ namespace Thunderfury.Utils
 {
 	public sealed class HTTPHelper
 	{
+		private static DelegatingHandler _handler;
+		public static DelegatingHandler Handler
+		{
+			get { return _handler; }
+			set { _handler = value; _client = null; }
+		}
 
 		private static HttpClient _client;
 		public static HttpClient Client
 		{
 			get
 			{
-				if(_client == null)
-					_client = new HttpClient();
+				if (_client == null) _client = new HttpClient();
 				return _client;
 			}
 		}

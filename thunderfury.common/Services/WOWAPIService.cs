@@ -27,7 +27,7 @@ namespace Thunderfury.Services
 		pt_BR,
 	}
 
-	public class WOWAPIService
+	public class WowApiService
 	{
 
 		/// <summary>
